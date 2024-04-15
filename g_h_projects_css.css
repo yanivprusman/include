@@ -1,0 +1,74 @@
+/* style.css */
+.pre-box {
+  resize: both;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  min-height: 100px;
+}
+.pre-box pre {
+  margin: 0;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .adjustableText {
+   resize: both; 
+   overflow: auto; 
+   width: 200px; 
+   height: 100px;
+  }
+
+  .resizeableDivContainer {
+    /* width: auto; */
+    height: 200px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 10px;
+    resize: both;
+    overflow: auto;
+    padding: 10px;
+    max-width: none;
+    }
+    .clear {
+        clear: both; /* Clear the float */
+    }

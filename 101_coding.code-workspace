@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"[javascript]": {
+			"editor.tabSize": 4, // Set your preferred tab size
+			"editor.insertSpaces": true // Use spaces instead of tabs
+		}
+	}
+}

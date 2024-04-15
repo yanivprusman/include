@@ -1,0 +1,19 @@
+  
+<br>B4<br>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/js-beautify@1.13.5/js/lib/beautify.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src='<br />
+<font size='1'><table class='xdebug-error xe-uncaught-exception' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Fatal error: Uncaught Error: Typed static property G_H_PROJECTS_INCLUDE\G_h_projects_include::$g_h_root must not be accessed before initialization in /var/www/101_include/G_h_projects_include.php on line <i>20</i></th></tr>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Error: Typed static property G_H_PROJECTS_INCLUDE\G_h_projects_include::$g_h_root must not be accessed before initialization in /var/www/101_include/G_h_projects_include.php on line <i>20</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.2084</td><td bgcolor='#eeeeec' align='right'>405232</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/103_gio/tutorial/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.2415</td><td bgcolor='#eeeeec' align='right'>469240</td><td bgcolor='#eeeeec'>Composer\Autoload\ClassLoader->loadClass( <span>$class = </span><span>&#39;G_H_PROJECTS_INCLUDE\\G_h_projects_include&#39;</span> )</td><td title='/var/www/103_gio/tutorial/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>14</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.2446</td><td bgcolor='#eeeeec' align='right'>469352</td><td bgcolor='#eeeeec'>Composer\Autoload\{closure:/var/www/103_gio/vendor/composer/ClassLoader.php:581-583}( <span>$file = </span><span>&#39;/var/www/103_gio/vendor/composer/../../../101_include/G_h_projects_include.php&#39;</span> )</td><td title='/var/www/103_gio/vendor/composer/ClassLoader.php' bgcolor='#eeeeec'>.../ClassLoader.php<b>:</b>433</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.2546</td><td bgcolor='#eeeeec' align='right'>477712</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'/var/www/101_include/G_h_projects_include.php</font> )</td><td title='/var/www/103_gio/vendor/composer/ClassLoader.php' bgcolor='#eeeeec'>.../ClassLoader.php<b>:</b>582</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.2631</td><td bgcolor='#eeeeec' align='right'>479168</td><td bgcolor='#eeeeec'>G_H_PROJECTS_INCLUDE\G_h_projects_include::getInstance( <span>$g_h_root = </span>??? )</td><td title='/var/www/101_include/G_h_projects_include.php' bgcolor='#eeeeec'>.../G_h_projects_include.php<b>:</b>37</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.2631</td><td bgcolor='#eeeeec' align='right'>479256</td><td bgcolor='#eeeeec'>G_H_PROJECTS_INCLUDE\G_h_projects_include->__construct(  )</td><td title='/var/www/101_include/G_h_projects_include.php' bgcolor='#eeeeec'>.../G_h_projects_include.php<b>:</b>28</td></tr>
+</table></font>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
