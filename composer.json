@@ -14,5 +14,6 @@
             "email": "yanivprusman3@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "stable"
 }
