@@ -1,6 +1,6 @@
 <?php
 declare (strict_types=1);
-namespace G_H_PROJECTS_INCLUDE;
+namespace Include;
 // define('GHProjectsDir',"D:/125_xampp/htdocs/include/"); 
 use G_H_PROJECTS_INCLUDE\G_h_projects_functions;
 use G_H_PROJECTS_INCLUDE\Html;
