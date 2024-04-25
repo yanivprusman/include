@@ -1,5 +1,8 @@
 {
     "name": "yaniv/101_include",
+    "description": "A simple PHP package ",
+    "type": "library",
+    "license": "My Custom License",
     "autoload": {
         "psr-4": {
             "Yaniv\\101Include\\": "src/"
