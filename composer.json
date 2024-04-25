@@ -5,7 +5,7 @@
     "license": "My Custom License",
     "autoload": {
         "psr-4": {
-            "Yaniv\\101Include\\": "src/"
+            "G_H_Projects\\": "./"
         }
     },
     "authors": [
