@@ -1,5 +1,5 @@
 {
-    "name": "g_h_projects/the_include",
+    "name": "g_h_projects/include",
     "description": "A simple PHP package ",
     "type": "library",
     "license": "My Custom License",
@@ -16,5 +16,5 @@
     ],
     "require": {},
     "minimum-stability": "stable",
-    "version": "1.0.1"
+    "version": "1.0.0"
 }

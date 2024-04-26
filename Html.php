@@ -1,10 +1,10 @@
 <?php
-namespace G_H_PROJECTS_INCLUDE;
+namespace G_H_Projects;
 use PDO;
 use PDOException;
 use App\UnsortedListNode;
 use App\TransferedJSObject;
-use G_H_PROJECTS_INCLUDE\JSNode;
+use G_H_Projects\JSNode;
 use App\Enums\JSNodeFormat;
 class Html{
     public static ?Html $instance = null;

@@ -2,8 +2,8 @@
 declare (strict_types=1);
 namespace G_H_Projects;
 // define('GHProjectsDir',"D:/125_xampp/htdocs/include/"); 
-use G_H_PROJECTS_INCLUDE\G_h_projects_functions;
-use G_H_PROJECTS_INCLUDE\Html;
+use G_H_Projects\G_h_projects_functions;
+use G_H_Projects\Html;
 include_once ("app/style.php");
 class G_h_projects_include{
     public static string $g_h_outer_root;

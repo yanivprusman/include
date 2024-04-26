@@ -1,6 +1,6 @@
 <?php
 declare (strict_types=1);
-namespace G_H_PROJECTS_INCLUDE;
+namespace G_H_Projects;
 require_once __DIR__ . '/vendor/autoload.php';
 // define ('getDefinedVars', <<<'defined'
 //     $allVars = get_defined_vars();
