@@ -1,9 +1,9 @@
 <?php
 declare (strict_types=1);
 namespace G_H_PROJECTS_INCLUDE;
-use G_H_PROJECTS_INCLUDE\Enums\JSNodeFormat;
+use G_H_Projects\Enums\JSNodeFormat;
 // use App\Enums\JSNodeFormat;
-use G_H_PROJECTS_INCLUDE\JSNode;
+use G_H_Projects\JSNode;
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;
 use App\Attributes\Post;

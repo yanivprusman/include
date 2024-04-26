@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace G_H_PROJECTS_INCLUDE;
+namespace G_H_Projects;
 // use App\Enums\JSNodeFormat;
-use G_H_PROJECTS_INCLUDE\Enums\JSNodeFormat;
+use G_H_Projects\Enums\JSNodeFormat;
 class JSNode{
     public $children = [];
     public static int $spacesInIndent = 4;

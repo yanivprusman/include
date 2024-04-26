@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace G_H_PROJECTS_INCLUDE;
+namespace G_H_Projects;
 require_once __DIR__ . '/../vendor/autoload.php';
-use G_H_PROJECTS_INCLUDE\G_h_projects_functions;
+use G_H_Projects\G_h_projects_functions;
 class DoSql{
     public static function doSql(string $sql){
         G_h_projects_functions::connectToMysql("php_tutorial");
