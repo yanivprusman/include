@@ -1,6 +1,6 @@
 <?php
 declare (strict_types=1);
-namespace G_H_PROJECTS_INCLUDE\Enums;
+namespace G_H_Projects\Enums;
 
 enum JSNodeFormat:int{
     case KeyWithoutQuotes = 1;
