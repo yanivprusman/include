@@ -1,6 +1,6 @@
 <?php
 declare (strict_types=1);
-namespace G_H_PROJECTS_INCLUDE;
+namespace G_H_Projects;
 use G_H_Projects\Enums\JSNodeFormat;
 // use App\Enums\JSNodeFormat;
 use G_H_Projects\JSNode;
