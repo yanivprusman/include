@@ -32,7 +32,7 @@ class G_h_projects_include{
         <script>window.jQuery || document.write('<script src="offlineJS/jquery-3.7.1.js"><\/script>')</script>
         <script src='<?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_js.js'?>'></script>
         <script src='<?php echo G_h_projects_include::$g_h_outer_root . 'transaction.js'?>'></script>
-        <link id="g_h_projects_stylesheet" rel="stylesheet" type="text/css" href='<?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_css.css'?>'>    
+        <!-- <link id="g_h_projects_stylesheet" rel="stylesheet" type="text/css" href='<?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_css.css'?>'>     -->
         </head>
         <div id="debugConsole" class="pre-box" style="display:none; border: 1px solid black;" contenteditable="true"></div>
         <script>
