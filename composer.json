@@ -2,7 +2,7 @@
     "name": "g_h_projects/include",
     "description": "A simple PHP package ",
     "type": "library",
-    "license": "My Custom License",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "G_H_Projects\\": "./"
@@ -16,6 +16,5 @@
     ],
     "require": {},
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "version": "1.0.5"
+    "prefer-stable": true
 }
