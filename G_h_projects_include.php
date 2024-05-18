@@ -27,7 +27,15 @@ class G_h_projects_include{
         <script src="https://cdn.jsdelivr.net/npm/js-beautify@1.13.5/js/lib/beautify.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="offlineJS/jquery-3.7.1.js"><\/script>')</script>
-        <script src='<?php echo G_h_projects_include::$include . 'g_h_projects_js.js'?>'></script>
+        <script>
+        if (!document.querySelector('script[src="<?php echo G_h_projects_include::$include . 'g_h_projects_js.js'; ?>"]')) {
+            // Create a new script element
+            var script = document.createElement('script');
+            script.src = '<?php echo G_h_projects_include::$include . 'g_h_projects_js.js'; ?>';
+            document.head.appendChild(script);
+        }  
+        </script>
+        <!-- <script src='< ?php echo G_h_projects_include::$include . 'g_h_projects_js.js'?>'></script> -->
         <script src='<?php echo G_h_projects_include::$include . 'transaction.js'?>'></script>
         <!-- <link id="g_h_projects_stylesheet" rel="stylesheet" type="text/css" href='< ?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_css.css'?>'>     -->
         </head>
