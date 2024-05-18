@@ -6,8 +6,7 @@ use G_H_Projects\G_h_projects_functions;
 use G_H_Projects\Html;
 include_once ("app/style.php");
 class G_h_projects_include{
-    public static string $g_h_outer_root;
-    public static string $g_h_root=DIRECTORY_SEPARATOR . '101_include' . DIRECTORY_SEPARATOR;
+    public static string $include= 'include/';
     private static ?G_h_projects_include $instance=null;
     public function __construct(string $host = ''){
         if ($host===''){
@@ -15,11 +14,9 @@ class G_h_projects_include{
         }
         //   $host = isset($_SERVER['HTTP_HOST'])?$_SERVER['HTTP_HOST']:'';
         $replacement = '';
-        static::$g_h_outer_root =  'http://' . $host . str_replace('/var/www', $replacement, static::$g_h_root);
     }
-    public static function getInstance(?string $g_h_root=null):?static{
+    public static function getInstance():?static{
         if (!static::$instance){
-            if ($g_h_root) static::$g_h_root = $g_h_root;
             static::$instance = new static();
         }
         return static::$instance;
@@ -30,9 +27,9 @@ class G_h_projects_include{
         <script src="https://cdn.jsdelivr.net/npm/js-beautify@1.13.5/js/lib/beautify.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="offlineJS/jquery-3.7.1.js"><\/script>')</script>
-        <script src='<?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_js.js'?>'></script>
-        <script src='<?php echo G_h_projects_include::$g_h_outer_root . 'transaction.js'?>'></script>
-        <!-- <link id="g_h_projects_stylesheet" rel="stylesheet" type="text/css" href='<?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_css.css'?>'>     -->
+        <script src='<?php echo G_h_projects_include::$include . 'g_h_projects_js.js'?>'></script>
+        <script src='<?php echo G_h_projects_include::$include . 'transaction.js'?>'></script>
+        <!-- <link id="g_h_projects_stylesheet" rel="stylesheet" type="text/css" href='< ?php echo G_h_projects_include::$g_h_outer_root . 'g_h_projects_css.css'?>'>     -->
         </head>
         <div id="debugConsole" class="pre-box" style="display:none; border: 1px solid black;" contenteditable="true"></div>
         <script>
